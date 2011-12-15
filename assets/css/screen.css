@@ -1,0 +1,65 @@
+/************************************************
+ *
+ *  File     :  css/screen.css
+ *  Medium   :  Screen
+ *  Version  :  0.1
+ *  Website  :  
+ *  Author   :  BNOTIONS (c) 2011
+ *
+ ************************************************/
+
+/* global */
+
+    body { 
+        cursor: default;
+        }
+
+    /* image replacement */
+        .ir 
+        	{ display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+
+    /* clearfix */
+		.clearfix:before, .clearfix:after 
+			{ content: "\0020"; display: block; height: 0; overflow: hidden; }
+		.clearfix:after 
+			{ clear: both; }
+		.oldie .clearfix 
+			{ zoom: 1; }
+   
+    /* headings */
+        h1 {
+            cursor: pointer;
+            }
+
+    /* anchors */
+        a {
+            
+            }
+            
+/* // global */
+
+/* page structure */
+
+    header {
+        
+        }
+    
+    section {
+    	
+    }
+    
+    footer {
+    	
+    }
+
+/* // page structure */
+
+/* portrait orientation */
+	@media all and (orientation:portrait) {
+	
+	}
+
+/* landscape orientation */
+	@media all and (orientation:landscape) {
+	
+	}
