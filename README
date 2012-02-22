@@ -1,3 +1,10 @@
 This is the BNOTIONS Boilerplate REDUX.
 
 It is a lot lighter and more streamlined than our earlier boilerplate.
+
+To use our validajtor - please include the following in your javascript file:
+
+$('form').validajte({
+			'labelpos' : 'absolute',
+			'ajax' : false
+});
